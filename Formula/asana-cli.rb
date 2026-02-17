@@ -6,21 +6,21 @@ class AsanaCli < Formula
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/mjumelet/asana-cli/releases/download/v1.1.0/asana-cli_1.1.0_darwin_arm64.tar.gz"
+      url "https://github.com/mjumelet/asana-cli/releases/download/v#{version}/asana-cli_#{version}_darwin_arm64.tar.gz"
       sha256 "52a762170707931c22d37f9faff2e7c6487cfc4f1a2701866a9a2923977863a8"
     else
       url "https://github.com/mjumelet/asana-cli/releases/download/v#{version}/asana-cli_#{version}_darwin_amd64.tar.gz"
-      sha256 "8e6676d87d8107c7d6c93fff14be6a720d98d2a22c072ac6b943966122ef7ee9"
+      sha256 "fd38d6bdf83d85cd4144b4ebfb6350ca57c7477436e754a83d0f95f8cfd3c399"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
       url "https://github.com/mjumelet/asana-cli/releases/download/v#{version}/asana-cli_#{version}_linux_arm64.tar.gz"
-      sha256 "4f1d02e21a3c10ee1d97ae5a50525b0e8321c298a536631c52e814d0c0314bf3"
+      sha256 "3a70deb28c51a89c877a10fa9dbdfb04c50b9702d63654317bc5a04f07858144"
     else
       url "https://github.com/mjumelet/asana-cli/releases/download/v#{version}/asana-cli_#{version}_linux_amd64.tar.gz"
-      sha256 "2005fbe68857525ea32d4a4da2410556576ccad040730a39947117d61bcae09c"
+      sha256 "852f5b6dcd5a1c5660ca1ec82f9b31806373bfc3cf12b16bd90b8f1b84c9e7f6"
     end
   end
 
