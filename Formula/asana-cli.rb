@@ -2,12 +2,12 @@ class AsanaCli < Formula
   desc "A fast, lightweight command-line interface for Asana"
   homepage "https://github.com/mjumelet/asana-cli"
   license "MIT"
-  version "1.3.0"
+  version "1.3.1"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/mjumelet/asana-cli/releases/download/v1.3.0/asana-cli_1.3.0_darwin_arm64.tar.gz"
-      sha256 "58be5d102ed5eec0600f403f69329a5bd84c3ff9bc502b485da281525aabbafb"
+      url "https://github.com/mjumelet/asana-cli/releases/download/v1.3.1/asana-cli_1.3.1_darwin_arm64.tar.gz"
+      sha256 "92dd1d128450e73ac92cce77c8820d47ced10465be486ddb0704e3d39cb7b989"
     else
       url "https://github.com/mjumelet/asana-cli/releases/download/v#{version}/asana-cli_#{version}_darwin_amd64.tar.gz"
       sha256 "fd38d6bdf83d85cd4144b4ebfb6350ca57c7477436e754a83d0f95f8cfd3c399"
