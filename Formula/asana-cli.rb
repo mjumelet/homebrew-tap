@@ -10,17 +10,17 @@ class AsanaCli < Formula
       sha256 "92dd1d128450e73ac92cce77c8820d47ced10465be486ddb0704e3d39cb7b989"
     else
       url "https://github.com/mjumelet/asana-cli/releases/download/v#{version}/asana-cli_#{version}_darwin_amd64.tar.gz"
-      sha256 "fd38d6bdf83d85cd4144b4ebfb6350ca57c7477436e754a83d0f95f8cfd3c399"
+      sha256 "8fdd967b85df1e715291d7de0eef3846e8436414661dd449e10031c9cab17150"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
       url "https://github.com/mjumelet/asana-cli/releases/download/v#{version}/asana-cli_#{version}_linux_arm64.tar.gz"
-      sha256 "3a70deb28c51a89c877a10fa9dbdfb04c50b9702d63654317bc5a04f07858144"
+      sha256 "9c1d3834f0acd083d58e2ec6c9d9512913d2ef0c83895d1904013a79b4a947b0"
     else
       url "https://github.com/mjumelet/asana-cli/releases/download/v#{version}/asana-cli_#{version}_linux_amd64.tar.gz"
-      sha256 "852f5b6dcd5a1c5660ca1ec82f9b31806373bfc3cf12b16bd90b8f1b84c9e7f6"
+      sha256 "9660f52acde3bac0c4244aa78d0b42b987b22d80945b5636470ca67ae6c97f30"
     end
   end
 
