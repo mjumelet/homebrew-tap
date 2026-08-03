@@ -6,7 +6,7 @@ class AsanaCli < Formula
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/mjumelet/asana-cli/releases/download/v1.3.1/asana-cli_1.3.1_darwin_arm64.tar.gz"
+      url "https://github.com/mjumelet/asana-cli/releases/download/v#{version}/asana-cli_#{version}_darwin_arm64.tar.gz"
       sha256 "92dd1d128450e73ac92cce77c8820d47ced10465be486ddb0704e3d39cb7b989"
     else
       url "https://github.com/mjumelet/asana-cli/releases/download/v#{version}/asana-cli_#{version}_darwin_amd64.tar.gz"
